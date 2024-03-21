@@ -1,6 +1,11 @@
-<div class="">
-    <button
-    class="bg-gray-400 p-6 m-4 inline border-none"
-    wire:mouseover="increment">+</button>
-    <h3 class="inline">{{ $count }}</h3>
+<div class="mt-20">
+
+    @for ($i = 50; $i < 1000; $i += 50)
+        @if($i % 100 == 0 || $i == 50 || $i == 950)
+            <div class="bg-slate-{{$i}} pl-5 pt-10 pb-10 text-3xl">
+            bg-gray {{ $i }}
+            </div>
+        @endif
+    @endfor
+
 </div>

@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
         <script src="https://cdn.tailwindcss.com"></script>
 
-<style>
-</style>
+        <style>
+        </style>
 
     </head>
     <body>
